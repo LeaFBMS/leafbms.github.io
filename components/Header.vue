@@ -1,6 +1,6 @@
 <script setup>
-import '@/assets/main.scss';
-import { ref, onMounted, onUnmounted } from 'vue';
+import "@/assets/main.scss";
+import {ref, onMounted, onUnmounted} from "vue";
 
 const isScrolled = ref(false);
 
@@ -10,24 +10,24 @@ const handleScroll = () => {
 };
 
 onMounted(() => {
-  window.addEventListener('scroll', handleScroll);
+  window.addEventListener("scroll", handleScroll);
 });
 
 onUnmounted(() => {
-  window.removeEventListener('scroll', handleScroll);
+  window.removeEventListener("scroll", handleScroll);
 });
 </script>
 
 <template>
-  <div :class="{ 'scrolled': isScrolled }" class="header">
-    <ul>
+  <div :class="{scrolled: isScrolled}" class="header">
+    <ul style="margin-top: 10px">
       <li>
-        <NuxtLink to="/">Home</NuxtLink>
+        <NuxtLink to="/">
+          <IconsLogo />
+        </NuxtLink>
       </li>
-      <li>
-        <NuxtLink to="/about">About</NuxtLink>
-      </li>
-      <li>
+      <li style="display: flex; align-items: center">
+        <NuxtLink to="/about" style="margin-right: 20px">About</NuxtLink>
         <NuxtLink to="/discography">Discography</NuxtLink>
       </li>
     </ul>

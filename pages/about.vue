@@ -1,5 +1,5 @@
 <template>
-    <div>
-        This is Discography About page!
-    </div>
+  <div>
+    <Info />
+  </div>
 </template>

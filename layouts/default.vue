@@ -1,8 +1,5 @@
 <template>
-    <div class="DefaultLayout bg-slate-900 h-screen text-white">
-        <p>
-            Default Layout
-        </p>
+    <div class="DefaultLayout background h-screen">
         <slot />
     </div>
 </template>
