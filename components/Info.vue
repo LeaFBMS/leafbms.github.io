@@ -1,0 +1,16 @@
+<template>
+  <div>
+    <IconsLogo />
+  </div>
+  <div>
+    Creating music since 2011, LeaF is a Japanese electronic music producer with
+    a keen history in the rhythm gaming music scene. Rising to notability with
+    her win in the THE BMS OF FIGHTERS ULTIMATE 2016- Legendary Again
+    competition with Aleph-0, LeaF has quickly become something akin to a
+    household name when it comes to rhythm gaming, establishing her place among
+    the titans of the scene with her constantly evolving sound design and
+    experimentation across countless genres. Her work has since featured in many
+    games, including appearances in the SOUND VOLTEX series, CHUNITHM, maimai
+    and even Taiko no Tatsujin.
+  </div>
+</template>

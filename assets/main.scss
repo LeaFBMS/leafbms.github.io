@@ -1,0 +1,72 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import 'variables';
+
+.verticle-center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+// Background
+.background {
+        background-color: $background-color;
+    }
+
+// Header 
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: transparent;
+    transition: background-color 0.3s ease-in-out;
+    z-index: 1000;
+  }
+  
+  .header.scrolled {
+    background-color: $background-color;
+  }
+  
+  .header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .header li {
+    display: inline;
+  }
+  
+  .header li:not(:first-child) {
+    margin-left: 20px;
+  }
+  
+  .header a {
+    text-decoration: none;
+    color: $primary-text-color;
+    font-size: 16px;
+  }
+
+// Index page
+.Display {
+    display: relative;
+    justify-content: center;
+    align-items: center;
+    padding-left: 20vw;
+}
+
+.Display > img {
+  min-width: 200px;
+  min-height: 200px;
+  width: 30vw;
+  height: auto;
+}
+
+// About page
