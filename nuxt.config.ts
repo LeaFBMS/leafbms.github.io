@@ -21,4 +21,9 @@ export default defineNuxtConfig({
   modules: [
     '@nuxt/content',
   ],
+
+  app: {
+    baseURL: '/',
+    buildAssetsDir: 'assets'
+  }
 })
